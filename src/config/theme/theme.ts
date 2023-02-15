@@ -3,6 +3,10 @@ import { ptBR } from '@mui/material/locale';
 
 export const Theme = createTheme(
     {
+        typography:{
+            fontFamily:'ubuntu'
+        },
+
         palette: {
             mode: 'dark',
             primary: {
